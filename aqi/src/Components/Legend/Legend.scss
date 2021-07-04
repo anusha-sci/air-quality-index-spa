@@ -1,0 +1,21 @@
+.legend__container{
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem auto;
+
+}
+
+.legend__value{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 400;
+
+}
+.dot{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}

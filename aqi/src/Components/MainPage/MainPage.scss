@@ -1,0 +1,21 @@
+.main__page{
+  display: flex;
+
+  .table__container{
+    flex-basis: 45%;
+   
+  }
+  
+  .charts__container{
+    flex-basis: 65% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+}
+
+.footer{
+  min-height: 30px;
+  background: var(--navy-blue);
+}

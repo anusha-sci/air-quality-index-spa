@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+
+.App__title{
+  margin-bottom: 2rem;
+  font-size: 45px;
+}
+
+
+.mainpage__container{
+  margin-top: 3rem ;
+}

@@ -46,6 +46,7 @@ export default function BarChartRecharts({ dataObject }) {
   });
   return (
     <div className="barChart__container">
+      <h3>AQI level for different cities</h3>
       <ResponsiveContainer width="100%" aspect={3}>
         <BarChart
           width={1000}

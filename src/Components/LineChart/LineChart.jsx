@@ -14,7 +14,7 @@ import { getColorCode } from "../Utils";
 
 export default function LineChartSelectedCity({ city, cityData = [] }) {
   const dataForLineChart = cityData
-    .slice(cityData.length - 20, cityData.length - 1)
+    .slice(Math.max(cityData.length - 20,0), cityData.length - 1)
     .map((item, index) => {
       const { aqi, timeStamp } = item;
       return {
@@ -22,6 +22,7 @@ export default function LineChartSelectedCity({ city, cityData = [] }) {
         timeStamp: moment.utc(timeStamp).local().format("hh:mm:ss a"),
       };
     });
+   
   return (
     <div className="lineChart__div">
       <h2>{`Current AQI for ${city}`}</h2>

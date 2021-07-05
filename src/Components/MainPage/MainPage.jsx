@@ -56,7 +56,7 @@ export default function MainPage() {
         </div>
       </div>
       <CategoryCardDiv/>
-      <div className="footer"></div>
+      <div className="footer"> Created by <a href="https://github.com/anusha-sci">Anusha</a> </div>
     </>
   );
 }

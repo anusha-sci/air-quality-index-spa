@@ -18,4 +18,13 @@
 .footer{
   min-height: 30px;
   background: var(--navy-blue);
+  color: white;
+  text-align: center;
+
+  a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
+

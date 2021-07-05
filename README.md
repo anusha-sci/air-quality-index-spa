@@ -1,5 +1,7 @@
-# air-quality-index-spa
+# Air Quality Index SPA
 Single page application to show air quality index of major cities in India. 
+
+![Demo gif](https://realtime-aqi.netlify.app/aqi-webpage.gif)
 
 The page shows real time aqi levels of 12 metropolitan cities in India. The data keeps on updating every second.
 
